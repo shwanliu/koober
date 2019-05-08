@@ -39,14 +39,8 @@ Setup PredictionIO Pipeline:
 1. Setup PIO
      
     PredictionIO 0.14.0 is installed at /Users/liuxiaoying/PredictionIO-0.14.0
-    Apache Spark is installed at /Users/liuxiaoying/PredictionIO-0.14.0/vendors/spark-2.1.1-bin-hadoop2.6
-    Apache Spark 2.1.1 detected (meets minimum requirement of 2.0.2)
-    Inspecting storage backend connections...
-    Verifying Meta Data Backend (Source: PGSQL)...
-    Verifying Model Data Backend (Source: PGSQL)...
-    Verifying Event Data Backend (Source: PGSQL)...
-    Test writing to Event Store (App Id 0)...
-    Your system is all ready to go.
+    spark version : spark-2.1.1-bin-hadoop2.6
+    You can ref: http://predictionio.apache.org/install/install-sourcecode/
     
 2. Set the PIO Access Key:
 
