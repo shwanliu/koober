@@ -38,8 +38,7 @@ Setup PredictionIO Pipeline:
 
 1. Setup PIO
     (base) liuxiaoyingdemacbook pro:.git liuxiaoying$ pio status
-    Notice !
-    [INFO] [Management$] Inspecting PredictionIO...
+     
     [INFO] [Management$] PredictionIO 0.14.0 is installed at /Users/liuxiaoying/PredictionIO-0.14.0
     [INFO] [Management$] Inspecting Apache Spark...
     [INFO] [Management$] Apache Spark is installed at /Users/liuxiaoying/PredictionIO-0.14.0/vendors/spark-2.1.1-bin-hadoop2.6
@@ -50,6 +49,7 @@ Setup PredictionIO Pipeline:
     [INFO] [Storage$] Verifying Event Data Backend (Source: PGSQL)...
     [INFO] [Storage$] Test writing to Event Store (App Id 0)...
     [INFO] [Management$] Your system is all ready to go.
+    
 2. Set the PIO Access Key:
 
         export PIO_ACCESS_KEY=<YOUR PIO ACCESS KEY>
