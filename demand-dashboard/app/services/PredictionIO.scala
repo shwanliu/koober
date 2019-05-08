@@ -17,7 +17,7 @@ trait PredictionIO {
 class PredictionIOImpl @Inject() (configuration: Configuration, wsClient: WSClient)(implicit executionContext: ExecutionContext) extends PredictionIO {
 
   val predictionIOUrl = configuration.getString("predictionio.url").get
-
+  
   override def predict(json: JsValue) : Future[JsValue] = {
     wsClient.url(predictionIOUrl).post(json)
       .map { response =>

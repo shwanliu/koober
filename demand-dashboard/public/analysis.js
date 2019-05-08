@@ -171,6 +171,7 @@ $(function() {
       data: "/analyze?" + buildQueryString(algorithmName, coordinates)
     });
 
+    console.log("data",data)
     algorithmMap.addLayer({
       "id": layerName,
       "type": "circle",
